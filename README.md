@@ -1,1 +1,0 @@
-# taurus_26fall_client

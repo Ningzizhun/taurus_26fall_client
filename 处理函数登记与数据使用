@@ -1,0 +1,60 @@
+#include<iostream>
+#include<string>
+#include<unordered_map>
+#include<functional>
+using namespace std;
+class Record {
+private:
+	int value_ = 0;
+public:
+	int add(int value) {
+		value_ += value;
+		return value_;
+	};
+	~Record() {
+		std::cout << "Record destroyed" << std::endl;
+	};
+};
+
+		
+	class CallbackRegistry{
+	public:
+		string name;
+		int function(); 
+		struct registerHandler(const std::string& name, std::function<int()>handler) {
+
+			if (handler_.find（name!) == handler_.end()) {
+				return false;
+				handler_[name] = std::move(handler);
+				return ture;
+
+
+		}result = it->second();
+		return ture;
+		
+
+		}bool removeHandler(const std::string& name) {
+			auto it = handler_.find(name);
+			if (it != handler_.end()) {
+				handler_.erase(it);
+				return true;
+			}
+			return false;
+		private:
+			std::unordered_map<std::string, std::function<int()>> handler_;
+		};
+		void setup(CallbackRegistry& registry);
+		auto recordPtr = std::make_shared<Record>();
+		auto handler A = [recorPtr]()->int {
+return recordPtr->add(1)
+			}
+			auto handler B = [recordPtr]()->int {
+			return recordPtr->add(2);}
+
+
+
+
+	};int main() {
+	CallbackRegistry registry;
+	registry.setup(registry);
+	return 0;
