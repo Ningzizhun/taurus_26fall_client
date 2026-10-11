@@ -1,0 +1,69 @@
+#include<iostream>
+#include<string>
+#include<chrono>
+#include<thread>
+using namespace std;
+int main() {
+	struct Botmodel {
+	private:
+		bool connected;
+		virtual void onDisconnected()
+		{
+			cout << "" << endl;
+		}
+	public:
+		Botmodel() :connected(false) {}
+		void setConnected(bool c) {
+
+			connected = c;
+			if (connected) {
+				onDisconnected();
+			}
+
+
+
+		}
+		bool isconnected()const; {
+			return connected;
+		}
+		struct InfantryModel :public Botmodel 1; {
+		private:
+			updatePerformanceModel();
+
+		public:Botmodel() :InfantryModel() : updatePerformanceMode(mode) : {
+			isconnected = true;
+			void getPerformanceModel()
+				cout << "PerformanceModel:" << endl;
+			if isConnected();
+			return false;
+			else if PerformanceModel::Cooling&& m = PerformanceModel::Brusting && m;
+			return ture;
+			else if connected();
+			return onDisconnected();
+		}int main(){
+			struct InfantryModel(){
+				class BotModel(){
+					cout << "initial connecting status:" << isconnected() << endl;
+					if (bot.updatePerformanceModel(PerfoemanceMode::Cooling&&bot.updatePerformanceModel(PerformanceModel::Bursting));
+					cout<<"connected failed"<<getPerformanceModel()<<endl;
+
+				}
+
+				class ScopedTimer(){
+						ScopedTimer timer;
+						void foo();
+						{
+							std::this_thread::sleep_for(std::chrono::seconds(100));
+							if earlyReturn()::ture;
+							return;
+						}foo();int main() {
+							cout << "test false" << endl;
+							test(false);
+							cout << "test ture" << endl;
+							test(ture);
+							return 0;
+						}
+
+	
+
+}
