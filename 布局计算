@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+struct size {
+	int width;
+	int height;
+};
+struct point{
+	int x;
+	int y;
+};
+class Layout{
+	public:
+		int Layout();
+		void setAdjustesSized();
+		void setFrame();
+};
+int main(){
+
+	return 0;
+
+}
