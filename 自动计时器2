@@ -1,0 +1,25 @@
+#include<iostream>
+#include<string>
+#include<chrono>
+#include<thread>
+using namespace std;
+class ScopedTimer {private:
+
+
+public:
+	   
+
+};void foo() {
+	std::this_thread::sleep_for(std::chrono::milliseconds(100)；
+}
+int main() {
+	void test(bool earlyReturn)
+		int ScopedTimer() {
+
+	};void foo() {
+
+	};if earlyReturn(ture) {
+		void foo()
+	}
+	return;
+}
