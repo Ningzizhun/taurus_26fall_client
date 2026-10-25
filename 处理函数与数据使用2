@@ -4,9 +4,20 @@ using namespace std;
 class CallbackRegistry {private:
 	string registerHandler(string name,std::is_function<int()>);
 
-public:string registerHandler(int name,int handler) {
+public:string registerHandler(int name, int handler) {
+	string name;
+	int function(handler);
 	
-};class Record {
+};invoke(name) {
+
+
+	return 0；
+}rewmove(name) {
+
+
+		return 0;
+	}
+class Record {
 private:
 	int value_ = 0;
 public:int add(int value) {
@@ -18,7 +29,16 @@ public:int add(int value) {
 		  std::cout << "Record destroy" << endl;
 	  }
 };void setup(CallbackRegistry&& registry) {
+	int add(1) {
+		cout << "" << endl;
+		return 0;
+	}
+	int add(10){
+		cout << "" << endl;
+		return 0;
 };
 int main(){
+
+
 
 
