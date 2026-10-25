@@ -2,8 +2,7 @@
 #include<string>
 
 using namespace std;
-int main() {
-	struct Botmodel {
+	class Botmodel {
 	private:
 		bool connected;
 		virtual void onDisconnected()
@@ -48,21 +47,7 @@ int main() {
 
 				}
 
-				class ScopedTimer(){
-						ScopedTimer timer;
-						void foo();
-						{
-							std::this_thread::sleep_for(std::chrono::seconds(100));
-							if earlyReturn()::ture;
-							return;
-						}foo();int main() {
-							cout << "test false" << endl;
-							test(false);
-							cout << "test ture" << endl;
-							test(ture);
-							return 0;
-						}
-
+				
 	
 
 }
