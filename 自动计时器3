@@ -3,3 +3,17 @@
 #include<chrono>
 #include<thread>
 using namespace std;
+class ScopedTimer(){
+						ScopedTimer timer;
+						void foo();
+						{
+							std::this_thread::sleep_for(std::chrono::seconds(100));
+							if earlyReturn()::ture;
+							return;
+						}foo();int main() {
+							cout << "test false" << endl;
+							test(false);
+							cout << "test ture" << endl;
+							test(ture);
+							return 0;
+						}
