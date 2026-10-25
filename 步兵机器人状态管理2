@@ -1,0 +1,37 @@
+#include<iostream>
+#include<string>
+using namespace std;
+class BotModel {
+private:string setConnected;
+	   string isConnected;
+public:void setConnected(bool connected) {
+	if () {
+		cout << "condition:" << "ture" << endl;
+	};else if () {
+			cout << "condition:" << "false" << endl;
+		};
+};void isConnected() {
+	cout << "" << endl;
+	return 0;
+};
+	  
+};class InfantryModel :public BotModel {
+private:string updatePerformanceMode();
+	   string getPerformanceMode();
+public:void updatePerformanceModel(mode) {
+	cin >> "" >> endl;
+	cout << "mode:" << conndition << endl;
+};class Collingmode :public BotModel {
+public:void mode()override {
+	cout << "" << endl;
+};class BrustMode :public BotModel {
+public:void mode()override {
+	cout << "" << endl;     
+}
+};
+};
+};int main() {
+	void InfantryModel() :class BolModel {
+
+	};
+}
